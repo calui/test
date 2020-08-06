@@ -1,4 +1,14 @@
-module.exports = function(callback){
-  // Prints the message "Hello Webtask" when accessed
-  callback(null, "Hello Webtask");
-}
+  {
+    "title": "Sample Extension",
+    "name": "sample-extension",
+    "version": "1.0.0",
+    "author": "auth0",
+    "description": "This is a sample extension",
+    "type": "application",
+    "repository": "https://github.com/auth0/sample-extension",
+    "keywords": [
+      "auth0",
+      "extension"
+    ],
+    "codeUrl": "https://raw.githubusercontent.com/auth0/sample-extension/master/index.js"
+  }

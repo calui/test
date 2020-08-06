@@ -1,0 +1,4 @@
+module.exports = function(callback){
+  // Prints the message "Hello Webtask" when accessed
+  callback(null, "Hello Webtask");
+}
